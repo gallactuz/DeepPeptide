@@ -37,9 +37,6 @@ The program generates the following files:
 - designed_amps.csv — Table containing sequences and their physicochemical properties (charge, pI, mass, hydrophobicity)
 - designed_amps.fasta — Generated peptide sequences in FASTA format
 
-To validate and rank the generated peptides, run:
-python3 validate_amps.py
-
 Main Parameters
 --alpha: Weight of the CVAE in the hybrid generation (0 = LSTM only, 1 = CVAE only)
 --target_potency: Desired potency level (1.0 = highest potency)
@@ -49,6 +46,8 @@ Main Parameters
 --vae_epochs / --lstm_epochs: Number of training epochs (reduce significantly when using CPU)
 
 ---
-
+To validate and rank the generated peptides, run:
+python3 validate_amps.py
+---
 License
 This project is licensed under the MIT License — see the LICENSE file for details.
