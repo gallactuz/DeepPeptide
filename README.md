@@ -48,6 +48,7 @@ Main Parameters
 ---
 To validate and rank the generated peptides, run:
 python3 validate_amps.py
+
 ---
 License
 This project is licensed under the MIT License — see the LICENSE file for details.
